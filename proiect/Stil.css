@@ -26,3 +26,48 @@ h2 {
   border-color: brown;
   border-style: solid;
 }
+.guarantee {
+  border-color: white;
+  border-width: 2x;
+  border-style: dotted;
+  background-color: #a7cece;
+  background-image: url(images/imag.jpeg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.6em;
+  padding: 3px;
+  padding-left: 250px;
+  margin: 10px auto;
+  min-height:80px;
+  width: 800px;
+  text-align: center;
+  box-sizing: border-box;
+}
+a{
+  color:white;
+  text-decoration: none;
+
+}
+a:link{
+
+
+}
+  a:visited{
+    color: #999999;
+  }
+    a:hover{
+      text-decoration: underline;
+    }
+.song {
+  font-style:italic;
+}
+.artist {
+  font-weight: bold;
+}
+#cup{
+  position: fixed;
+  top: 300px;
+  right:800px;
+  width: 0.05px;
+  height: 100px;
+}
